@@ -3,7 +3,7 @@
 ### 1. 설치되어 있는 엔진 확인
 
 ![MySQL_DB_link_01.png](./img/MySQL_DB_link_01.png "./img/MySQL_DB_link_01.png")  
-    - CentOS에서 yum으로 설치했을 때 기본적으로 사용 가능한 엔진들의 목록입니다.
+	- CentOS에서 yum으로 설치했을 때 기본적으로 사용 가능한 엔진들의 목록입니다.
 
 ### 2. 엔진을 사용할 수 있도록 설치
 
@@ -12,17 +12,17 @@
 ### 3. FEDERATED 엔진의 설치여부 확인
 
 ![MySQL_DB_link_03.png](./img/MySQL_DB_link_03.png "./img/MySQL_DB_link_03.png")  
-    - FEDERATED 엔진이 목록에 표시되지만 사용 가능하지 않은 상태입니다.
+	- FEDERATED 엔진이 목록에 표시되지만 사용 가능하지 않은 상태입니다.
 
 ### 4. 엔진 사용 가능 하도록 my.cnf 수정
 
 ![MySQL_DB_link_04.png](./img/MySQL_DB_link_04.png "./img/MySQL_DB_link_04.png")  
-    - [mysqld] 하위에 federated 항목을 추가합니다.
+	- [mysqld] 하위에 federated 항목을 추가합니다.
 
 ### 5. 엔진의 상태를 확인 합니다.
 
 ![MySQL_DB_link_05.png](./img/MySQL_DB_link_05.png "./img/MySQL_DB_link_05.png")  
-    - FEDERATED 엔진의 Support 상태가 YES 로 변경 되었습니다.
+	- FEDERATED 엔진의 Support 상태가 YES 로 변경 되었습니다.
 
 
 ----------------
