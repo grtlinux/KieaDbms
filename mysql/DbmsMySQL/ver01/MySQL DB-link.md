@@ -55,7 +55,9 @@
 ### 3. 이상 모든 설정을 완료 했다면 로컬에서 원격지의 Table을 로컬 테이블 처럼 사용 가능합니다. select, insert, update, delete 모두 가능 합니다.
 
 
-
+----------
+#### References
+> [MySQL DB-Link 구현을 위한 FEDERATED 엔진 활성화 및 테이블 생성](http://devse.tistory.com/14 "Hi")  
 
 
 
